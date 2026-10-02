@@ -2,15 +2,15 @@
 
 从 QQ 邮箱只读读取学生提交材料的附件名，与名单比对后汇总成 Excel 名单（Windows x64）。
 
-- 当前版本：**v1.2**（build 1）
-- 最近更新：首个公开版本：图形界面版（三步操作、进度与取消、结果一键打开）、可选的加密记住授权码、单文件 exe，附完整使用手册。
+- 当前版本：**v1.2.1**（build 2）
+- 最近更新：修复：去掉界面上重复的标题；安装包改用 Inno Setup 图形向导（下一步/选择目录/完成页，并在「应用和功能」里提供卸载入口）。
 
 ## 下载
 
 | 用途 | 文件 |
 |---|---|
-| 首次安装（推荐，双击即装） | [StudentNameAggregator-1.2-win-x64-Setup.exe](https://github.com/xmuhl-tools/StudentNameAggregator-updates/releases/download/v1.2/StudentNameAggregator-1.2-win-x64-Setup.exe) |
-| 便携版（解压即用） | [StudentNameAggregator-1.2-win-x64.zip](https://github.com/xmuhl-tools/StudentNameAggregator-updates/releases/download/v1.2/StudentNameAggregator-1.2-win-x64.zip) |
+| 首次安装（推荐，双击即装） | [StudentNameAggregator-1.2.1-win-x64-Setup.exe](https://github.com/xmuhl-tools/StudentNameAggregator-updates/releases/download/v1.2.1/StudentNameAggregator-1.2.1-win-x64-Setup.exe) |
+| 便携版（解压即用） | [StudentNameAggregator-1.2.1-win-x64.zip](https://github.com/xmuhl-tools/StudentNameAggregator-updates/releases/download/v1.2.1/StudentNameAggregator-1.2.1-win-x64.zip) |
 
 ## 安装与使用
 
@@ -24,10 +24,10 @@
 ## 校验（sha256）
 
 ```text
-StudentNameAggregator-1.2-win-x64.zip
-  2f272be4bbe27f1bb60a28e3f49d233e32f172d5530751d1a04bad67ebfb6c05
-StudentNameAggregator-1.2-win-x64-Setup.exe
-  cbab4573ad2db87649dbd6d037528f44356c99619574b0254ce8183b5bd3ce97
+StudentNameAggregator-1.2.1-win-x64.zip
+  e7e4da92389c3de9e4116cdc659d191133ec4ca593af48bb6c0db3c06b9825d2
+StudentNameAggregator-1.2.1-win-x64-Setup.exe
+  fa7d7498749ce4580ab7db8a6e90925ff220b4a1f822da95cecb98a5cc8b4e96
 ```
 
 ---
