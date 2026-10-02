@@ -1,0 +1,14 @@
+{
+  "product": "StudentNameAggregator",
+  "version": "1.2",
+  "build": 1,
+  "notes": "首个公开版本：图形界面版（三步操作、进度与取消、结果一键打开）、可选的加密记住授权码、单文件 exe，附完整使用手册。",
+  "asset": "StudentNameAggregator-1.2-win-x64.zip",
+  "sha256": "2f272be4bbe27f1bb60a28e3f49d233e32f172d5530751d1a04bad67ebfb6c05",
+  "mirrors": [
+    "https://cdn.jsdelivr.net/gh/xmuhl-tools/StudentNameAggregator-updates@v1.2/StudentNameAggregator-1.2-win-x64.zip",
+    "https://ghfast.top/https://github.com/xmuhl-tools/StudentNameAggregator-updates/releases/download/v1.2/StudentNameAggregator-1.2-win-x64.zip",
+    "https://mirror.ghproxy.com/https://github.com/xmuhl-tools/StudentNameAggregator-updates/releases/download/v1.2/StudentNameAggregator-1.2-win-x64.zip"
+  ],
+  "size": 35673256
+}
