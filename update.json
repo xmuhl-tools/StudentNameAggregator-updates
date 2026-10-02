@@ -1,14 +1,14 @@
 {
   "product": "StudentNameAggregator",
-  "version": "1.2.1",
-  "build": 2,
-  "notes": "修复：去掉界面上重复的标题；安装包改用 Inno Setup 图形向导（下一步/选择目录/完成页，并在「应用和功能」里提供卸载入口）。",
-  "asset": "StudentNameAggregator-1.2.1-win-x64.zip",
-  "sha256": "e7e4da92389c3de9e4116cdc659d191133ec4ca593af48bb6c0db3c06b9825d2",
+  "version": "1.3",
+  "build": 3,
+  "notes": "新增自动更新（弹窗确认后安装，清单带数字签名校验）；新增应用图标；使用手册同步更新。",
+  "asset": "StudentNameAggregator-1.3-win-x64.zip",
+  "sha256": "3b578e005860c65d2a7f9acfa66546bbcd28869106ea5ad92742d39010a7abba",
   "mirrors": [
-    "https://cdn.jsdelivr.net/gh/xmuhl-tools/StudentNameAggregator-updates@v1.2.1/StudentNameAggregator-1.2.1-win-x64.zip",
-    "https://ghfast.top/https://github.com/xmuhl-tools/StudentNameAggregator-updates/releases/download/v1.2.1/StudentNameAggregator-1.2.1-win-x64.zip",
-    "https://mirror.ghproxy.com/https://github.com/xmuhl-tools/StudentNameAggregator-updates/releases/download/v1.2.1/StudentNameAggregator-1.2.1-win-x64.zip"
+    "https://cdn.jsdelivr.net/gh/xmuhl-tools/StudentNameAggregator-updates@v1.3/StudentNameAggregator-1.3-win-x64.zip",
+    "https://ghfast.top/https://github.com/xmuhl-tools/StudentNameAggregator-updates/releases/download/v1.3/StudentNameAggregator-1.3-win-x64.zip",
+    "https://mirror.ghproxy.com/https://github.com/xmuhl-tools/StudentNameAggregator-updates/releases/download/v1.3/StudentNameAggregator-1.3-win-x64.zip"
   ],
-  "size": 35672512
+  "size": 35701854
 }

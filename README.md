@@ -2,15 +2,15 @@
 
 从 QQ 邮箱只读读取学生提交材料的附件名，与名单比对后汇总成 Excel 名单（Windows x64）。
 
-- 当前版本：**v1.2.1**（build 2）
-- 最近更新：修复：去掉界面上重复的标题；安装包改用 Inno Setup 图形向导（下一步/选择目录/完成页，并在「应用和功能」里提供卸载入口）。
+- 当前版本：**v1.3**（build 3）
+- 最近更新：新增自动更新（弹窗确认后安装，清单带数字签名校验）；新增应用图标；使用手册同步更新。
 
 ## 下载
 
 | 用途 | 文件 |
 |---|---|
-| 首次安装（推荐，双击即装） | [StudentNameAggregator-1.2.1-win-x64-Setup.exe](https://github.com/xmuhl-tools/StudentNameAggregator-updates/releases/download/v1.2.1/StudentNameAggregator-1.2.1-win-x64-Setup.exe) |
-| 便携版（解压即用） | [StudentNameAggregator-1.2.1-win-x64.zip](https://github.com/xmuhl-tools/StudentNameAggregator-updates/releases/download/v1.2.1/StudentNameAggregator-1.2.1-win-x64.zip) |
+| 首次安装（推荐，双击即装） | [StudentNameAggregator-1.3-win-x64-Setup.exe](https://github.com/xmuhl-tools/StudentNameAggregator-updates/releases/download/v1.3/StudentNameAggregator-1.3-win-x64-Setup.exe) |
+| 便携版（解压即用） | [StudentNameAggregator-1.3-win-x64.zip](https://github.com/xmuhl-tools/StudentNameAggregator-updates/releases/download/v1.3/StudentNameAggregator-1.3-win-x64.zip) |
 
 ## 安装与使用
 
@@ -21,13 +21,19 @@
 
 详细步骤（含 QQ 邮箱授权码怎么申请）见包内《使用手册.pdf》。
 
+## 自动更新
+
+程序启动时会在后台读取本仓库的更新清单 ⟦update.json⟧（清单带 RSA-2048/SHA-256 签名，
+客户端内置公钥验签，签名不符即拒绝），发现新版本会**弹窗询问**：
+确认后自动下载、校验 sha256 与签名、替换文件并重新打开；选择"否"会跳过该版本。
+也可在程序界面点「检查更新」手动检查。
 ## 校验（sha256）
 
 ```text
-StudentNameAggregator-1.2.1-win-x64.zip
-  e7e4da92389c3de9e4116cdc659d191133ec4ca593af48bb6c0db3c06b9825d2
-StudentNameAggregator-1.2.1-win-x64-Setup.exe
-  fa7d7498749ce4580ab7db8a6e90925ff220b4a1f822da95cecb98a5cc8b4e96
+StudentNameAggregator-1.3-win-x64.zip
+  3b578e005860c65d2a7f9acfa66546bbcd28869106ea5ad92742d39010a7abba
+StudentNameAggregator-1.3-win-x64-Setup.exe
+  6088ecaf2aef87a4fa67daa26594b06c65879dc85f98351b6d754d06a29bfcf6
 ```
 
 ---
